@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-boot-unit-test
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: http://localhost:5432/db_test
+    username: postgres
+    password: 1596psql
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
